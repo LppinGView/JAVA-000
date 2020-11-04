@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb2b40f0-7af8-4d04-aad3-754a2787d2e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/NettyServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/filter/HttpRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/filter/MyHttpHeadFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/inbound/HttpInboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/inbound/HttpInboundInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/inbound/HttpInboundServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/outbound/httpclient/MyHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/outbound/httpclient4/HttpOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/outbound/httpclient4/NamedThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/outbound/netty4/NettyHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/outbound/netty4/NettyHttpClientOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/outbound/okhttp/OkhttpOutboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/kimmking/gateway/router/HttpEndpointRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/NettyServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/filter/HttpRequestFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/filter/MyHttpHeadFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/inbound/HttpInboundHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/inbound/HttpInboundInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/inbound/HttpInboundServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/outbound/httpclient/MyHttpClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/outbound/httpclient/MyHttpClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/outbound/httpclient4/HttpOutboundHandler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/outbound/httpclient4/HttpOutboundHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/outbound/httpclient4/NamedThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/outbound/netty4/NettyHttpClientOutboundHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/outbound/okhttp/OkhttpOutboundHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/github/kimmking/gateway/router/HttpEndpointRouter.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Leo\my_maven_local_repository" />
+        <option name="mavenHome" value="E:\Leo\apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="E:\Leo\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jpZao1lpJdArVYIRYcNZqerRwa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="NettyServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.kimmking.gateway.NettyServerApplication" />
+      <module name="netty-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.kimmking.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NettyServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb2b40f0-7af8-4d04-aad3-754a2787d2e7" name="Default Changelist" comment="" />
+      <created>1604503062386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604503062386</updated>
+      <workItem from="1604503063725" duration="2513000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1604505202905">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1604505202905" />
+    <state x="421" y="117" key="FileChooserDialogImpl" timestamp="1604503131267">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="117" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1604503131267" />
+    <state width="1222" height="117" key="GridCell.Tab.0.bottom" timestamp="1604505556862">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="117" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1604505556862" />
+    <state width="1222" height="117" key="GridCell.Tab.0.center" timestamp="1604505556862">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="117" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1604505556862" />
+    <state width="1222" height="117" key="GridCell.Tab.0.left" timestamp="1604505556861">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="117" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1604505556861" />
+    <state width="1222" height="117" key="GridCell.Tab.0.right" timestamp="1604505556862">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="117" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1604505556862" />
+    <state x="142" y="7" key="SettingsEditor" timestamp="1604503134434">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="7" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1604503134434" />
+  </component>
+</project>
