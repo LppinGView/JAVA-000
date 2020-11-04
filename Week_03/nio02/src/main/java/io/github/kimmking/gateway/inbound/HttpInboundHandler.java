@@ -1,5 +1,6 @@
 package io.github.kimmking.gateway.inbound;
 
+import io.github.kimmking.gateway.filter.MyHttpHeadFilter;
 import io.github.kimmking.gateway.outbound.httpclient.MyHttpClient;
 import io.github.kimmking.gateway.outbound.httpclient4.HttpOutboundHandler;
 import io.netty.channel.ChannelHandlerContext;
@@ -32,13 +33,15 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
         try {
             //logger.info("channelRead流量接口请求开始，时间为{}", startTime);
             FullHttpRequest fullRequest = (FullHttpRequest) msg;
+            MyHttpHeadFilter myHttpHeadFilter = new MyHttpHeadFilter();
+            myHttpHeadFilter.filter(fullRequest,ctx);
 //            String uri = fullRequest.uri();
 //            //logger.info("接收到的请求url为{}", uri);
 //            if (uri.contains("/test")) {
 //                handlerTest(fullRequest, ctx);
 //            }
 
-            handle.handle(fullRequest, ctx);
+            handle.handle(myHttpHeadFilter.getFullHttpRequest(), ctx);
     
         } catch(Exception e) {
             e.printStackTrace();

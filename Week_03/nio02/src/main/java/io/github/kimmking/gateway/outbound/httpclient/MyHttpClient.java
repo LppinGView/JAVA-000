@@ -118,6 +118,8 @@ public class MyHttpClient {
                 //response.headers().set(e.getName(),e.getValue());
                 System.out.println(e.getName() + " => " + e.getValue());
             }
+            //获取MyHttpHeadFilter中设置的请求头nio
+            System.out.println("nio:"+fullRequest.headers().get("nio"));
 
         } catch (Exception e) {
             e.printStackTrace();
