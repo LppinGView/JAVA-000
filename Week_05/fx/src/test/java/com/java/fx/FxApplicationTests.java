@@ -1,18 +1,27 @@
 package com.java.fx;
 
+import com.java.fx.config.StudentProperties;
+import com.java.fx.model.ISchool;
 import com.java.fx.model.domain.School;
+import com.java.fx.model.domain.Student;
 import com.java.fx.pojo.JuiceMaker;
 import com.java.fx.pojo.Source;
 import com.java.fx.pojo.StoreConfigScan;
 import com.java.fx.pojo.StoreManager;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import javax.annotation.Resource;
+
 @SpringBootTest
 class FxApplicationTests {
+
+//    @Autowired
+//    Student student;
 
     @Test
     void contextLoads() {
@@ -45,8 +54,12 @@ class FxApplicationTests {
 
     @Test
     public void starter(){
-        School school = new School();
-        school.ding();
+//        System.out.println("------------分隔符-----------");
+//        System.out.println("自定义starter,按需配置student");
+////        School school= new School();
+////        school.ding();
+//
+//        System.out.println(student.toString());
     }
 
 }
