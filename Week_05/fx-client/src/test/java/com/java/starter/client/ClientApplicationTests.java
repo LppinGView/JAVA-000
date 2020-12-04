@@ -13,8 +13,8 @@ class ClientApplicationTests {
 
     @Test
     public void testStarter(){
-        School school = new School();
-        school.dong();
+//        School school = new School();
+//        school.dong();
     }
 
 }
