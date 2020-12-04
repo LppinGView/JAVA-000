@@ -1,7 +1,10 @@
 package com.java.fx.model.domain;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
+//@Component
 public class Klass {
     List<Student> students;
 
