@@ -20,7 +20,7 @@ CREATE TABLE `t_user`  (
 -- 订单表
 -- Table structure for t_trade
 -- ----------------------------
-CREATE TABLE `t_trade_2` (
+CREATE TABLE `t_trade` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '交易序号',
   `trade_no` bigint(20) NOT NULL COMMENT '交易单号',
   `user_uuid` bigint(20) NOT NULL COMMENT '用户uuid',
