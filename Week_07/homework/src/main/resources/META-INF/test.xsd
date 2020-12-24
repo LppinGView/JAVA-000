@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://leo.com/schema/test"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://leo.com/schema/test">
+
+    <xsd:element name="custom" type="customType"/>
+    <xsd:complexType name="customType">
+        <xsd:attribute name="id" type="xsd:integer"/>
+        <xsd:attribute name="name" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:element name="school" type="schoolType"/>
+    <xsd:complexType name="schoolType">
+        <xsd:attribute name="num" type="xsd:integer"/>
+        <xsd:attribute name="addr" type="xsd:string"/>
+        <xsd:attribute name="name" type="xsd:string"/>
+    </xsd:complexType>
+</xsd:schema>
